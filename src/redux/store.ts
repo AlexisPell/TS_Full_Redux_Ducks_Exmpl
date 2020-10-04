@@ -5,8 +5,9 @@ import thunk from 'redux-thunk'
 
 // Redux-ducks
 import users from './users'
+import recorder from './recorder'
 
-const rootReducer = combineReducers({ users })
+const rootReducer = combineReducers({ users, recorder })
 
 const initialState = {}
 const middleware = [logger, thunk]

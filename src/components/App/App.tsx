@@ -1,10 +1,15 @@
 import React from 'react'
 import './App.css'
 
+import Recorder from './../recorder/index'
+import Calendar from './../calendar/index'
+
 function App() {
 	return (
 		<div className='App'>
-			<h1>Hello my app!!!</h1>
+			<h1>Recording app</h1>
+			<Recorder />
+			<Calendar />
 		</div>
 	)
 }
